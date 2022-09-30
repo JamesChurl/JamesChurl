@@ -2,14 +2,15 @@
 
 print("Welcome to my first game!")
 name = input("What is your name? ")
+print(f"Hi {name}! That's a really cool name!")
 age = int(input("What is your age? "))
 
 health = 10
 
 if age >= 18:
-    print("You are old enough to play!")
+    print("That's a really cool age! You sound kinda hot...")
 
-    wants_to_play = input("Do you want to play? ").lower()
+    wants_to_play = input("Do you want to play? (yes/no)").lower()
     if wants_to_play == "yes":
         print("You are staring with", health, "health")
         print("Let's play!")
@@ -39,7 +40,7 @@ if age >= 18:
 
 
         else:
-            print("You fell down and lost...")
+            print("You bump your shin into a piece of furniture and immediately die... sorry pal. Maybe you should try again.")
 
     else:
         print("Cya...")
