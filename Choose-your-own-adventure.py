@@ -34,11 +34,18 @@ if age >= 18:
                     print("You now have 0 health and you lost the game...")
                 else:
                     print("You have survived... You win!")
-# you're half way through the code. Good job!
+
             else:
-                print("You fell in the river and lost...")
+                print("Whoops! That's some slippery mud! Now you're in the river! Take 1 damage.")
+                health -= 1
 
-
+                ans = input("Do you swim down the river or try and get out? (swim/get out)")
+                if ans == "swim":
+                    print("You're not as fit as you thought. You get tired and swallow some water. Take 2 damage.")
+                    health -= 5
+                else:
+                    print("You get sucked off by a fish as you try and get out. Gain 1 health.")
+                    health += 5
         else:
             print("You bump your shin into a piece of furniture and immediately die... sorry pal. Maybe you should try again.")
 
