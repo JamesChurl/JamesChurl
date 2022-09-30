@@ -1,4 +1,4 @@
-### Hello! 😸
+### Hello! 🤠
 
 My name is James and this is my first GitHub repository. It is a place to store some small projects and tiny python games I've either made myself from tutorials or taken from other people's repositories and tweaked to suit my liking. 
 
