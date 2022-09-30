@@ -45,7 +45,9 @@ if age >= 18:
                     health -= 5
                 else:
                     print("You get sucked off by a fish as you try and get out. Gain 1 health.")
-                    health += 5
+                    health += 1
+
+                print(f"You're health is now {health}. That's pretty good! Keep going!")
         else:
             print("You bump your shin into a piece of furniture and immediately die... sorry pal. Maybe you should try again.")
 
