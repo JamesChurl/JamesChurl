@@ -1,3 +1,5 @@
+#https://www.youtube.com/watch?v=_ZqAVck-WeM&t=358s
+
 print("Welcome to my first game!")
 name = input("What is your name? ")
 age = int(input("What is your age? "))
