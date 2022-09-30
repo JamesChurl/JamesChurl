@@ -34,7 +34,7 @@ if age >= 18:
                     print("You now have 0 health and you lost the game...")
                 else:
                     print("You have survived... You win!")
-
+# you're half way through the code. Good job!
             else:
                 print("You fell in the river and lost...")
 
