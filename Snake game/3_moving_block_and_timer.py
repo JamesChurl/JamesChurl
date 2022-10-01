@@ -77,7 +77,7 @@ class Game:
 
             self.snake.walk()
 
-            time.sleep(.2)
+            time.sleep(.05)
 
 if __name__ == '__main__':
     game = Game()
