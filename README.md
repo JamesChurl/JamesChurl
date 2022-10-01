@@ -9,3 +9,4 @@ Please have a look below to see some of my other socials:
  - https://www.linkedin.com/in/james-s-cirillo/
  - https://public.tableau.com/app/profile/james.cirillo
  - https://jameschurl.wordpress.com/
+ - https://www.kaggle.com/jamescirillo
