@@ -89,14 +89,14 @@ class Game:
         self.apple.draw()
 
     def play_background_music(self):
-        pygame.mixer.music.load('resources/bg_music_1.mp3')
+        pygame.mixer.music.load('resources/bg_music_1.wav')
         pygame.mixer.music.play(-1, 0)
 
     def play_sound(self, sound_name):
         if sound_name == "crash":
-            sound = pygame.mixer.Sound("resources/crash.mp3")
+            sound = pygame.mixer.Sound("resources/crash.wav")
         elif sound_name == 'ding':
-            sound = pygame.mixer.Sound("resources/ding.mp3")
+            sound = pygame.mixer.Sound("resources/ding.wav")
 
         pygame.mixer.Sound.play(sound)
 
